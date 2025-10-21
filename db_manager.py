@@ -4,7 +4,6 @@ from pathlib import Path
 from typing import Optional, Dict, List
 from datetime import datetime
 
-
 class DuckDBManager:
     """
     Manages DuckDB connection and analytics queries for user engagement data.
@@ -24,9 +23,12 @@ class DuckDBManager:
     def create_tables(self):
         """Create required tables for user events analytics."""
         
+        # Drop table if exists to avoid conflicts
+        self.conn.execute("DROP TABLE IF EXISTS user_events")
+        
         # Main user events table
         create_table_sql = """
-        CREATE TABLE IF NOT EXISTS user_events (
+        CREATE TABLE user_events (
             user_id VARCHAR,
             session_id VARCHAR,
             page_views INTEGER,
@@ -51,6 +53,9 @@ class DuckDBManager:
         Args:
             csv_path: Path to CSV file
         """
+        # Use parameterized query to avoid path issues
+        csv_path = csv_path.replace('\\', '/')
+        
         load_sql = f"""
         INSERT INTO user_events
         SELECT 
@@ -63,8 +68,11 @@ class DuckDBManager:
             CAST(is_returning AS BOOLEAN),
             CAST(converted AS BOOLEAN),
             revenue,
-            CAST(strptime(session_date, '%m/%d/%Y') AS DATE) as session_date
-        FROM read_csv_auto('{csv_path}');
+            TRY_CAST(session_date AS DATE) as session_date
+        FROM read_csv_auto('{csv_path}', 
+            header=true,
+            dateformat='%m/%d/%Y'
+        );
         """
         
         self.conn.execute(load_sql)
@@ -92,8 +100,8 @@ class DuckDBManager:
         ),
         percentiles AS (
             SELECT 
-                PERCENTILE_CONT(0.33) WITHIN GROUP (ORDER BY engagement_score) AS p33,
-                PERCENTILE_CONT(0.67) WITHIN GROUP (ORDER BY engagement_score) AS p67
+                quantile_cont(engagement_score, 0.33) AS p33,
+                quantile_cont(engagement_score, 0.67) AS p67
             FROM engagement_scores
         )
         SELECT 
@@ -189,7 +197,7 @@ class DuckDBManager:
         
         query = f"""
         SELECT 
-            DATE_TRUNC('{date_trunc}', session_date) AS period,
+            date_trunc('{date_trunc}', session_date) AS period,
             COUNT(*) AS total_sessions,
             COUNT(DISTINCT user_id) AS unique_users,
             SUM(CAST(converted AS INTEGER)) AS conversions,
@@ -208,55 +216,38 @@ class DuckDBManager:
     
     def get_conversion_funnel(self) -> pd.DataFrame:
         """
-        Analyze conversion funnel stages based on engagement levels.
+        Analyze conversion funnel stages with proper funnel progression.
         """
         query = """
+        WITH funnel_stages AS (
+            SELECT 
+                CASE 
+                    WHEN converted = true THEN 'Converted'
+                    WHEN time_on_page > 100 AND events_triggered > 0 AND page_views > 1 THEN 'High Engagement'
+                    WHEN events_triggered > 0 AND page_views > 1 THEN 'With Events'
+                    WHEN page_views > 1 THEN 'With Page Views'
+                    ELSE 'All Sessions'
+                END AS funnel_stage,
+                COUNT(*) AS sessions,
+                SUM(CAST(converted AS INTEGER)) AS conversions,
+                SUM(revenue) AS revenue
+            FROM user_events
+            GROUP BY funnel_stage
+        )
         SELECT 
-            'All Sessions' AS funnel_stage,
-            COUNT(*) AS sessions,
-            ROUND(AVG(CAST(converted AS FLOAT)) * 100, 2) AS conversion_rate,
-            ROUND(SUM(revenue), 2) AS revenue
-        FROM user_events
-        
-        UNION ALL
-        
-        SELECT 
-            'With Page Views (>1)' AS funnel_stage,
-            COUNT(*) AS sessions,
-            ROUND(AVG(CAST(converted AS FLOAT)) * 100, 2) AS conversion_rate,
-            ROUND(SUM(revenue), 2) AS revenue
-        FROM user_events
-        WHERE page_views > 1
-        
-        UNION ALL
-        
-        SELECT 
-            'With Events Triggered' AS funnel_stage,
-            COUNT(*) AS sessions,
-            ROUND(AVG(CAST(converted AS FLOAT)) * 100, 2) AS conversion_rate,
-            ROUND(SUM(revenue), 2) AS revenue
-        FROM user_events
-        WHERE events_triggered > 0
-        
-        UNION ALL
-        
-        SELECT 
-            'High Time on Site (>100s)' AS funnel_stage,
-            COUNT(*) AS sessions,
-            ROUND(AVG(CAST(converted AS FLOAT)) * 100, 2) AS conversion_rate,
-            ROUND(SUM(revenue), 2) AS revenue
-        FROM user_events
-        WHERE time_on_page > 100
-        
-        UNION ALL
-        
-        SELECT 
-            'Converted' AS funnel_stage,
-            COUNT(*) AS sessions,
-            100.0 AS conversion_rate,
-            ROUND(SUM(revenue), 2) AS revenue
-        FROM user_events
-        WHERE converted = true;
+            funnel_stage,
+            sessions,
+            ROUND((conversions::FLOAT / sessions) * 100, 2) AS conversion_rate,
+            ROUND(revenue, 2) AS revenue
+        FROM funnel_stages
+        ORDER BY 
+            CASE funnel_stage
+                WHEN 'All Sessions' THEN 1
+                WHEN 'With Page Views' THEN 2
+                WHEN 'With Events' THEN 3
+                WHEN 'High Engagement' THEN 4
+                WHEN 'Converted' THEN 5
+            END;
         """
         
         return self.conn.execute(query).df()
@@ -275,7 +266,7 @@ class DuckDBManager:
         ),
         cohort_data AS (
             SELECT 
-                DATE_TRUNC('month', ufs.cohort_date) AS cohort_month,
+                date_trunc('month', ufs.cohort_date) AS cohort_month,
                 ue.session_date,
                 COUNT(DISTINCT ue.user_id) AS active_users,
                 SUM(CAST(ue.converted AS INTEGER)) AS conversions,
@@ -333,7 +324,7 @@ if __name__ == "__main__":
     db.create_tables()
     
     # Load data (replace with your CSV path)
-    # db.load_csv_data("user_events.csv")
+    db.load_csv_data("user_events.csv")
     
     # Run analytics queries
     print("\n=== Engagement Segmentation ===")
