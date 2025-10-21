@@ -1,0 +1,751 @@
+user_id,session_id,page_views,time_on_page,events_triggered,category,is_returning,converted,revenue,session_date
+user_00164,session_000001,5,194,5,Electronics,0,0,0,8/20/2025
+user_00036,session_000002,3,660,3,Electronics,1,0,0,9/30/2025
+user_00023,session_000003,4,91,6,Books,1,0,0,7/26/2025
+user_00024,session_000004,1,191,0,Clothing,1,0,0,10/8/2025
+user_00007,session_000005,2,565,3,Books,1,0,0,10/14/2025
+user_00180,session_000006,5,134,4,Books,0,0,0,8/27/2025
+user_00208,session_000007,2,172,7,Electronics,1,1,316.01,9/15/2025
+user_00088,session_000008,4,86,6,Home & Garden,1,1,78.44,9/4/2025
+user_00027,session_000009,2,334,3,Electronics,1,0,0,9/6/2025
+user_00217,session_000010,6,52,10,Home & Garden,0,0,0,9/19/2025
+user_00138,session_000011,7,295,10,Electronics,1,0,0,10/1/2025
+user_00076,session_000012,6,34,6,Books,1,0,0,9/7/2025
+user_00148,session_000013,9,44,11,Clothing,1,1,32.49,8/21/2025
+user_00198,session_000014,5,323,7,Home & Garden,1,0,0,8/4/2025
+user_00098,session_000015,8,336,16,Home & Garden,1,0,0,9/7/2025
+user_00042,session_000016,1,52,2,Home & Garden,1,0,0,10/16/2025
+user_00069,session_000017,5,248,7,Electronics,1,0,0,8/13/2025
+user_00137,session_000018,4,88,6,Clothing,0,0,0,10/12/2025
+user_00177,session_000019,15,78,26,Books,0,0,0,7/30/2025
+user_00059,session_000020,9,47,18,Electronics,1,0,0,9/12/2025
+user_00069,session_000021,9,37,14,Electronics,1,1,151.06,10/3/2025
+user_00225,session_000022,3,64,5,Home & Garden,0,0,0,10/13/2025
+user_00118,session_000023,6,175,13,Clothing,0,0,0,10/2/2025
+user_00138,session_000024,2,441,1,Home & Garden,1,0,0,10/5/2025
+user_00103,session_000025,5,61,11,Home & Garden,0,0,0,9/26/2025
+user_00127,session_000026,2,112,3,Electronics,1,0,0,8/11/2025
+user_00161,session_000027,5,155,5,Clothing,1,0,0,7/31/2025
+user_00099,session_000028,6,65,13,Sports,1,0,0,9/20/2025
+user_00136,session_000029,4,244,5,Home & Garden,1,0,0,7/24/2025
+user_00175,session_000030,2,273,4,Electronics,0,0,0,8/26/2025
+user_00197,session_000031,5,158,10,Home & Garden,0,0,0,9/19/2025
+user_00001,session_000032,5,170,3,Home & Garden,1,0,0,8/14/2025
+user_00130,session_000033,3,162,3,Electronics,1,0,0,10/12/2025
+user_00130,session_000034,8,166,12,Books,0,0,0,8/12/2025
+user_00139,session_000035,1,86,1,Books,1,0,0,9/23/2025
+user_00005,session_000036,4,621,5,Electronics,1,0,0,8/31/2025
+user_00062,session_000037,11,89,17,Electronics,1,1,202.15,10/3/2025
+user_00243,session_000038,2,32,1,Electronics,0,0,0,7/31/2025
+user_00195,session_000039,2,378,2,Books,1,1,9.95,9/21/2025
+user_00243,session_000040,10,38,13,Books,0,0,0,10/8/2025
+user_00109,session_000041,1,379,1,Clothing,1,0,0,10/19/2025
+user_00052,session_000042,4,188,10,Home & Garden,1,0,0,10/16/2025
+user_00167,session_000043,3,49,1,Home & Garden,0,0,0,8/7/2025
+user_00064,session_000044,3,365,2,Clothing,1,1,58.48,7/25/2025
+user_00151,session_000045,7,269,14,Books,0,0,0,8/1/2025
+user_00182,session_000046,9,279,12,Electronics,0,0,0,9/3/2025
+user_00019,session_000047,2,381,3,Books,1,0,0,10/16/2025
+user_00125,session_000048,8,156,16,Clothing,0,0,0,10/4/2025
+user_00148,session_000049,3,454,5,Sports,0,0,0,9/13/2025
+user_00049,session_000050,7,92,9,Electronics,1,1,258.54,9/16/2025
+user_00091,session_000051,6,152,6,Sports,1,0,0,7/29/2025
+user_00173,session_000052,6,45,7,Electronics,0,0,0,8/5/2025
+user_00064,session_000053,9,331,16,Clothing,1,1,138.79,9/18/2025
+user_00036,session_000054,3,40,2,Sports,1,0,0,9/20/2025
+user_00064,session_000055,4,187,6,Electronics,1,0,0,10/1/2025
+user_00026,session_000056,4,43,9,Electronics,1,0,0,9/30/2025
+user_00215,session_000057,7,570,15,Electronics,1,0,0,8/22/2025
+user_00043,session_000058,1,142,1,Sports,1,0,0,8/19/2025
+user_00222,session_000059,6,689,15,Sports,1,1,70.8,7/23/2025
+user_00100,session_000060,3,59,7,Home & Garden,1,0,0,8/28/2025
+user_00109,session_000061,4,551,6,Books,0,0,0,8/16/2025
+user_00076,session_000062,4,203,8,Clothing,1,0,0,10/5/2025
+user_00189,session_000063,3,35,4,Books,0,0,0,7/29/2025
+user_00150,session_000064,7,107,11,Sports,0,0,0,8/12/2025
+user_00015,session_000065,7,159,13,Books,1,1,22.44,8/15/2025
+user_00018,session_000066,1,734,1,Books,1,1,23.94,8/22/2025
+user_00104,session_000067,4,54,3,Electronics,1,0,0,10/5/2025
+user_00153,session_000068,4,438,4,Electronics,0,0,0,10/5/2025
+user_00145,session_000069,3,46,3,Books,0,0,0,10/16/2025
+user_00184,session_000070,2,241,0,Home & Garden,0,0,0,10/16/2025
+user_00166,session_000071,5,402,6,Home & Garden,0,0,0,8/1/2025
+user_00003,session_000072,8,149,13,Sports,1,0,0,10/3/2025
+user_00026,session_000073,10,82,15,Electronics,1,0,0,9/25/2025
+user_00068,session_000074,3,136,4,Clothing,1,0,0,7/31/2025
+user_00226,session_000075,2,52,5,Clothing,0,0,0,9/30/2025
+user_00181,session_000076,2,189,2,Home & Garden,0,0,0,10/14/2025
+user_00136,session_000077,2,182,4,Electronics,0,0,0,10/15/2025
+user_00027,session_000078,1,80,0,Clothing,1,0,0,8/5/2025
+user_00191,session_000079,3,438,4,Books,0,0,0,8/18/2025
+user_00184,session_000080,2,658,3,Home & Garden,0,0,0,8/25/2025
+user_00130,session_000081,5,182,7,Sports,0,0,0,7/29/2025
+user_00024,session_000082,4,91,4,Sports,1,0,0,7/28/2025
+user_00001,session_000083,2,858,3,Home & Garden,1,0,0,10/12/2025
+user_00068,session_000084,3,192,6,Clothing,1,0,0,10/1/2025
+user_00181,session_000085,4,42,6,Sports,0,0,0,10/19/2025
+user_00232,session_000086,4,333,9,Clothing,0,0,0,10/5/2025
+user_00142,session_000087,4,443,8,Clothing,0,1,147.09,9/7/2025
+user_00231,session_000088,6,309,7,Electronics,1,0,0,8/23/2025
+user_00171,session_000089,14,339,15,Electronics,0,0,0,9/13/2025
+user_00250,session_000090,3,260,6,Books,1,0,0,8/22/2025
+user_00222,session_000091,5,187,7,Clothing,1,0,0,9/13/2025
+user_00007,session_000092,11,251,12,Clothing,1,0,0,9/3/2025
+user_00201,session_000093,6,129,13,Sports,1,0,0,8/23/2025
+user_00069,session_000094,7,103,9,Clothing,1,0,0,8/5/2025
+user_00098,session_000095,3,106,5,Electronics,1,0,0,8/20/2025
+user_00052,session_000096,4,473,3,Sports,1,0,0,8/21/2025
+user_00058,session_000097,1,65,1,Electronics,1,0,0,9/12/2025
+user_00085,session_000098,2,155,1,Home & Garden,1,0,0,8/27/2025
+user_00090,session_000099,3,72,3,Books,1,0,0,9/29/2025
+user_00085,session_000100,16,298,23,Electronics,1,1,54.63,8/25/2025
+user_00046,session_000101,8,66,11,Books,1,0,0,8/25/2025
+user_00010,session_000102,1,124,0,Electronics,1,0,0,9/5/2025
+user_00187,session_000103,5,34,4,Home & Garden,0,0,0,8/6/2025
+user_00099,session_000104,2,65,2,Books,1,0,0,7/28/2025
+user_00182,session_000105,6,349,6,Sports,0,0,0,9/29/2025
+user_00176,session_000106,2,34,2,Clothing,0,1,15.68,10/16/2025
+user_00236,session_000107,2,86,4,Home & Garden,0,0,0,8/7/2025
+user_00185,session_000108,7,129,11,Home & Garden,0,0,0,9/2/2025
+user_00104,session_000109,4,57,5,Home & Garden,0,0,0,10/16/2025
+user_00241,session_000110,1,219,1,Sports,0,0,0,10/9/2025
+user_00146,session_000111,5,56,10,Home & Garden,0,0,0,8/30/2025
+user_00074,session_000112,5,196,8,Clothing,1,0,0,10/5/2025
+user_00156,session_000113,2,267,1,Home & Garden,0,0,0,8/19/2025
+user_00131,session_000114,6,153,9,Sports,1,0,0,8/13/2025
+user_00169,session_000115,1,319,1,Electronics,0,0,0,10/10/2025
+user_00086,session_000116,1,478,0,Electronics,1,0,0,8/22/2025
+user_00173,session_000117,8,136,8,Home & Garden,0,0,0,7/26/2025
+user_00012,session_000118,5,223,8,Clothing,1,0,0,10/9/2025
+user_00218,session_000119,6,65,13,Electronics,0,0,0,10/4/2025
+user_00050,session_000120,1,44,2,Sports,1,0,0,8/23/2025
+user_00038,session_000121,5,98,7,Electronics,1,0,0,8/5/2025
+user_00200,session_000122,4,318,12,Sports,0,0,0,10/20/2025
+user_00133,session_000123,7,108,8,Sports,0,0,0,8/7/2025
+user_00117,session_000124,1,74,2,Clothing,1,0,0,10/2/2025
+user_00153,session_000125,2,410,3,Home & Garden,1,0,0,10/9/2025
+user_00209,session_000126,4,159,3,Books,0,0,0,9/18/2025
+user_00230,session_000127,5,107,9,Clothing,1,0,0,8/25/2025
+user_00193,session_000128,3,168,4,Clothing,1,0,0,9/27/2025
+user_00125,session_000129,6,425,11,Clothing,0,1,82.02,8/28/2025
+user_00061,session_000130,2,153,5,Home & Garden,1,0,0,9/30/2025
+user_00021,session_000131,6,223,13,Clothing,1,1,37.34,9/10/2025
+user_00178,session_000132,2,351,1,Clothing,1,1,71.72,9/13/2025
+user_00085,session_000133,4,84,8,Books,1,0,0,7/30/2025
+user_00053,session_000134,4,49,5,Sports,1,0,0,10/5/2025
+user_00243,session_000135,1,38,4,Electronics,1,0,0,9/9/2025
+user_00123,session_000136,7,34,10,Electronics,1,0,0,9/10/2025
+user_00219,session_000137,3,1083,5,Sports,0,0,0,10/8/2025
+user_00230,session_000138,11,235,18,Clothing,0,0,0,9/23/2025
+user_00008,session_000139,6,213,7,Sports,1,0,0,10/17/2025
+user_00205,session_000140,4,112,10,Sports,1,0,0,8/8/2025
+user_00160,session_000141,8,52,7,Books,0,0,0,10/3/2025
+user_00170,session_000142,5,70,7,Electronics,0,0,0,9/20/2025
+user_00047,session_000143,3,194,4,Electronics,1,0,0,9/2/2025
+user_00055,session_000144,2,49,2,Sports,1,0,0,9/9/2025
+user_00072,session_000145,15,177,23,Sports,1,1,73.69,8/2/2025
+user_00121,session_000146,2,240,2,Electronics,1,1,119.65,9/5/2025
+user_00058,session_000147,9,525,12,Electronics,1,0,0,10/14/2025
+user_00011,session_000148,7,435,11,Electronics,1,0,0,8/17/2025
+user_00215,session_000149,13,266,12,Electronics,0,0,0,9/21/2025
+user_00172,session_000150,2,61,4,Electronics,0,0,0,10/20/2025
+user_00066,session_000151,6,175,8,Home & Garden,1,1,215.46,10/8/2025
+user_00247,session_000152,8,274,11,Electronics,1,1,137.5,8/31/2025
+user_00028,session_000153,4,262,9,Books,1,1,51.25,8/31/2025
+user_00148,session_000154,5,65,9,Sports,0,0,0,8/1/2025
+user_00152,session_000155,2,62,4,Clothing,0,0,0,10/18/2025
+user_00154,session_000156,3,138,2,Electronics,1,0,0,7/28/2025
+user_00089,session_000157,5,103,7,Books,1,0,0,9/8/2025
+user_00018,session_000158,7,364,14,Books,1,0,0,7/24/2025
+user_00218,session_000159,8,71,7,Sports,1,1,77.85,9/7/2025
+user_00163,session_000160,2,53,4,Sports,1,0,0,9/27/2025
+user_00248,session_000161,4,139,4,Home & Garden,0,0,0,9/22/2025
+user_00120,session_000162,5,249,8,Sports,1,0,0,9/2/2025
+user_00219,session_000163,4,395,5,Clothing,1,1,174.65,9/18/2025
+user_00063,session_000164,10,223,16,Sports,1,0,0,10/16/2025
+user_00098,session_000165,2,123,5,Home & Garden,1,1,88.82,9/2/2025
+user_00047,session_000166,4,100,6,Sports,1,0,0,8/25/2025
+user_00088,session_000167,10,142,14,Home & Garden,1,0,0,10/20/2025
+user_00226,session_000168,7,147,9,Home & Garden,0,0,0,8/16/2025
+user_00022,session_000169,7,290,18,Clothing,1,0,0,9/23/2025
+user_00143,session_000170,15,31,19,Clothing,0,0,0,9/23/2025
+user_00115,session_000171,2,83,3,Electronics,0,0,0,10/19/2025
+user_00063,session_000172,3,199,3,Home & Garden,1,0,0,9/8/2025
+user_00122,session_000173,5,164,8,Books,0,0,0,10/1/2025
+user_00085,session_000174,2,574,4,Home & Garden,1,0,0,8/26/2025
+user_00079,session_000175,1,444,1,Home & Garden,1,0,0,8/16/2025
+user_00081,session_000176,11,87,21,Electronics,1,0,0,10/19/2025
+user_00048,session_000177,2,138,4,Clothing,1,0,0,9/22/2025
+user_00071,session_000178,5,34,9,Books,1,0,0,9/28/2025
+user_00153,session_000179,1,242,1,Home & Garden,1,0,0,8/29/2025
+user_00059,session_000180,1,261,1,Home & Garden,1,0,0,7/24/2025
+user_00182,session_000181,2,42,1,Books,0,1,13.6,7/29/2025
+user_00142,session_000182,4,219,9,Home & Garden,0,0,0,9/23/2025
+user_00027,session_000183,1,599,0,Electronics,1,0,0,9/21/2025
+user_00123,session_000184,2,48,6,Sports,0,0,0,8/24/2025
+user_00241,session_000185,6,59,12,Sports,0,1,28.41,9/23/2025
+user_00019,session_000186,2,527,3,Books,1,0,0,7/29/2025
+user_00039,session_000187,5,153,12,Clothing,1,0,0,8/30/2025
+user_00022,session_000188,15,64,25,Clothing,1,1,51.98,9/14/2025
+user_00156,session_000189,4,386,7,Books,1,0,0,9/27/2025
+user_00098,session_000190,2,56,5,Sports,1,0,0,8/30/2025
+user_00221,session_000191,3,50,4,Books,1,0,0,10/10/2025
+user_00016,session_000192,2,40,3,Books,1,0,0,8/4/2025
+user_00243,session_000193,4,95,3,Clothing,0,0,0,8/2/2025
+user_00041,session_000194,1,164,1,Clothing,1,0,0,8/1/2025
+user_00041,session_000195,7,137,7,Electronics,1,0,0,10/19/2025
+user_00153,session_000196,8,293,12,Sports,0,0,0,10/21/2025
+user_00073,session_000197,3,287,3,Sports,1,1,30.8,8/21/2025
+user_00237,session_000198,4,364,3,Home & Garden,1,0,0,10/15/2025
+user_00206,session_000199,3,120,8,Clothing,0,0,0,10/13/2025
+user_00039,session_000200,10,37,21,Home & Garden,1,0,0,8/1/2025
+user_00016,session_000201,9,212,15,Clothing,1,0,0,10/7/2025
+user_00192,session_000202,8,59,15,Books,1,0,0,9/20/2025
+user_00177,session_000203,3,256,1,Home & Garden,0,0,0,9/25/2025
+user_00139,session_000204,4,594,7,Sports,0,0,0,9/16/2025
+user_00189,session_000205,5,85,3,Home & Garden,0,1,54.58,8/21/2025
+user_00247,session_000206,1,53,3,Books,0,1,66.8,10/17/2025
+user_00211,session_000207,9,330,15,Home & Garden,0,0,0,8/14/2025
+user_00121,session_000208,11,503,13,Books,0,0,0,8/15/2025
+user_00150,session_000209,1,545,1,Sports,0,0,0,8/3/2025
+user_00121,session_000210,1,422,1,Home & Garden,0,0,0,8/5/2025
+user_00220,session_000211,5,482,11,Clothing,0,0,0,8/28/2025
+user_00170,session_000212,5,55,13,Sports,1,0,0,9/19/2025
+user_00023,session_000213,2,31,3,Home & Garden,1,0,0,8/6/2025
+user_00249,session_000214,5,319,8,Sports,1,0,0,7/23/2025
+user_00169,session_000215,2,112,1,Books,0,1,39.77,9/27/2025
+user_00093,session_000216,2,421,4,Books,1,0,0,10/11/2025
+user_00114,session_000217,1,109,1,Electronics,0,0,0,8/28/2025
+user_00113,session_000218,3,42,8,Sports,0,0,0,10/8/2025
+user_00205,session_000219,16,40,21,Clothing,1,0,0,7/24/2025
+user_00142,session_000220,7,134,6,Sports,0,0,0,8/6/2025
+user_00119,session_000221,6,46,13,Electronics,0,0,0,8/29/2025
+user_00131,session_000222,2,103,0,Home & Garden,0,0,0,9/21/2025
+user_00063,session_000223,5,350,9,Sports,1,0,0,9/10/2025
+user_00049,session_000224,2,45,5,Books,1,0,0,8/9/2025
+user_00222,session_000225,5,594,3,Electronics,0,0,0,9/14/2025
+user_00088,session_000226,3,456,5,Books,1,0,0,7/23/2025
+user_00073,session_000227,3,456,3,Home & Garden,1,0,0,10/5/2025
+user_00169,session_000228,4,33,6,Sports,1,0,0,9/22/2025
+user_00089,session_000229,6,179,7,Home & Garden,1,0,0,9/30/2025
+user_00097,session_000230,2,178,3,Sports,1,0,0,8/16/2025
+user_00179,session_000231,4,45,8,Clothing,0,0,0,9/13/2025
+user_00012,session_000232,3,41,3,Home & Garden,1,0,0,10/21/2025
+user_00234,session_000233,2,62,3,Sports,0,0,0,10/14/2025
+user_00039,session_000234,6,411,7,Sports,1,0,0,8/8/2025
+user_00129,session_000235,4,50,9,Books,0,0,0,9/17/2025
+user_00026,session_000236,7,317,11,Books,1,0,0,7/24/2025
+user_00185,session_000237,7,380,16,Clothing,0,0,0,8/11/2025
+user_00020,session_000238,6,57,7,Sports,1,0,0,8/25/2025
+user_00087,session_000239,4,644,7,Books,1,0,0,10/14/2025
+user_00021,session_000240,4,177,8,Home & Garden,1,0,0,9/29/2025
+user_00098,session_000241,2,340,4,Home & Garden,1,0,0,9/23/2025
+user_00224,session_000242,8,254,16,Books,0,1,15.57,10/11/2025
+user_00176,session_000243,3,278,7,Home & Garden,1,0,0,9/16/2025
+user_00026,session_000244,2,42,2,Electronics,1,0,0,10/19/2025
+user_00077,session_000245,8,88,13,Electronics,1,1,18.76,7/30/2025
+user_00076,session_000246,4,95,10,Home & Garden,1,0,0,8/10/2025
+user_00063,session_000247,1,172,2,Books,1,0,0,10/18/2025
+user_00203,session_000248,1,37,2,Clothing,0,0,0,9/9/2025
+user_00159,session_000249,3,282,3,Clothing,0,0,0,8/21/2025
+user_00119,session_000250,6,348,7,Home & Garden,0,0,0,9/20/2025
+user_00231,session_000251,1,93,1,Home & Garden,0,0,0,9/17/2025
+user_00242,session_000252,3,449,5,Home & Garden,1,0,0,9/15/2025
+user_00177,session_000253,6,187,9,Home & Garden,0,0,0,9/10/2025
+user_00219,session_000254,2,410,3,Sports,0,0,0,9/6/2025
+user_00148,session_000255,9,431,13,Home & Garden,1,0,0,10/15/2025
+user_00102,session_000256,3,191,3,Home & Garden,0,0,0,7/29/2025
+user_00234,session_000257,3,571,4,Books,1,0,0,8/28/2025
+user_00199,session_000258,1,110,1,Clothing,0,0,0,10/12/2025
+user_00049,session_000259,3,102,4,Books,1,0,0,10/15/2025
+user_00175,session_000260,2,30,0,Clothing,0,0,0,10/13/2025
+user_00011,session_000261,3,182,4,Home & Garden,1,0,0,7/27/2025
+user_00149,session_000262,2,51,6,Home & Garden,1,1,54.55,8/29/2025
+user_00084,session_000263,1,458,2,Sports,1,0,0,8/8/2025
+user_00202,session_000264,3,41,4,Books,1,0,0,9/25/2025
+user_00234,session_000265,4,53,3,Home & Garden,1,0,0,9/22/2025
+user_00248,session_000266,5,234,7,Home & Garden,1,0,0,8/6/2025
+user_00120,session_000267,3,448,2,Electronics,0,0,0,10/17/2025
+user_00186,session_000268,4,149,3,Sports,1,0,0,9/7/2025
+user_00024,session_000269,3,265,6,Sports,1,1,60.6,9/29/2025
+user_00032,session_000270,9,380,20,Sports,1,0,0,10/17/2025
+user_00068,session_000271,6,195,8,Books,1,0,0,10/12/2025
+user_00241,session_000272,1,216,1,Home & Garden,0,0,0,7/26/2025
+user_00159,session_000273,3,233,6,Books,0,0,0,10/13/2025
+user_00017,session_000274,2,35,3,Sports,1,0,0,8/30/2025
+user_00167,session_000275,4,34,8,Sports,0,1,55.49,7/27/2025
+user_00078,session_000276,4,104,7,Sports,1,1,104.13,8/22/2025
+user_00228,session_000277,2,176,2,Books,0,0,0,10/16/2025
+user_00244,session_000278,2,207,6,Books,0,0,0,8/11/2025
+user_00227,session_000279,3,146,7,Sports,0,0,0,10/9/2025
+user_00105,session_000280,2,53,4,Home & Garden,0,0,0,9/17/2025
+user_00114,session_000281,5,388,8,Clothing,1,1,48.88,10/18/2025
+user_00095,session_000282,4,290,8,Books,1,0,0,10/13/2025
+user_00092,session_000283,5,137,8,Electronics,1,0,0,8/16/2025
+user_00248,session_000284,2,88,2,Electronics,1,0,0,8/3/2025
+user_00170,session_000285,7,32,13,Clothing,0,0,0,7/25/2025
+user_00013,session_000286,5,293,7,Home & Garden,1,0,0,8/8/2025
+user_00202,session_000287,2,51,4,Books,0,0,0,10/1/2025
+user_00054,session_000288,3,44,4,Books,1,0,0,8/21/2025
+user_00085,session_000289,1,89,4,Clothing,1,0,0,10/7/2025
+user_00001,session_000290,2,76,5,Home & Garden,1,0,0,8/10/2025
+user_00034,session_000291,4,188,7,Books,1,0,0,8/14/2025
+user_00029,session_000292,7,57,13,Electronics,1,1,21.91,9/6/2025
+user_00203,session_000293,4,40,2,Clothing,0,1,29.46,8/25/2025
+user_00014,session_000294,4,41,2,Clothing,1,0,0,9/28/2025
+user_00030,session_000295,2,110,5,Electronics,1,0,0,9/7/2025
+user_00132,session_000296,8,115,21,Books,0,0,0,10/9/2025
+user_00012,session_000297,4,210,2,Books,1,0,0,10/13/2025
+user_00247,session_000298,12,227,27,Electronics,0,0,0,9/12/2025
+user_00110,session_000299,2,215,0,Electronics,0,0,0,8/1/2025
+user_00231,session_000300,3,595,4,Electronics,0,0,0,8/8/2025
+user_00071,session_000301,3,126,6,Books,1,0,0,10/1/2025
+user_00183,session_000302,3,198,4,Home & Garden,0,0,0,8/29/2025
+user_00117,session_000303,2,69,3,Books,0,0,0,10/20/2025
+user_00030,session_000304,10,160,12,Books,1,0,0,8/19/2025
+user_00111,session_000305,3,123,2,Sports,1,0,0,9/19/2025
+user_00103,session_000306,2,625,5,Sports,1,0,0,9/1/2025
+user_00171,session_000307,3,33,5,Home & Garden,0,0,0,9/21/2025
+user_00018,session_000308,4,217,7,Electronics,1,0,0,8/3/2025
+user_00111,session_000309,3,80,3,Electronics,1,0,0,8/8/2025
+user_00143,session_000310,3,544,6,Electronics,0,0,0,9/3/2025
+user_00172,session_000311,3,303,6,Electronics,0,0,0,9/15/2025
+user_00223,session_000312,3,479,4,Electronics,1,0,0,9/6/2025
+user_00027,session_000313,2,600,3,Books,1,0,0,8/11/2025
+user_00169,session_000314,13,87,24,Sports,0,1,5.92,10/2/2025
+user_00095,session_000315,10,136,11,Electronics,1,0,0,10/4/2025
+user_00058,session_000316,5,612,9,Sports,1,0,0,10/10/2025
+user_00158,session_000317,5,745,12,Books,0,0,0,10/19/2025
+user_00069,session_000318,2,295,1,Electronics,1,0,0,10/20/2025
+user_00196,session_000319,5,109,8,Home & Garden,1,0,0,8/15/2025
+user_00223,session_000320,4,52,6,Clothing,0,0,0,8/10/2025
+user_00190,session_000321,3,282,7,Electronics,0,0,0,9/9/2025
+user_00108,session_000322,2,480,2,Sports,0,0,0,9/2/2025
+user_00199,session_000323,6,36,14,Books,0,0,0,8/11/2025
+user_00041,session_000324,4,71,5,Books,1,1,67.17,8/2/2025
+user_00070,session_000325,4,329,8,Sports,1,0,0,9/23/2025
+user_00156,session_000326,6,36,2,Sports,0,0,0,9/26/2025
+user_00030,session_000327,6,680,4,Home & Garden,1,0,0,8/28/2025
+user_00174,session_000328,8,128,10,Books,0,0,0,7/28/2025
+user_00057,session_000329,6,335,12,Sports,1,0,0,7/30/2025
+user_00002,session_000330,5,37,8,Clothing,1,0,0,8/19/2025
+user_00197,session_000331,9,346,16,Clothing,1,0,0,8/7/2025
+user_00002,session_000332,6,265,14,Sports,1,0,0,8/14/2025
+user_00034,session_000333,4,268,3,Sports,1,0,0,8/21/2025
+user_00129,session_000334,1,335,2,Books,1,0,0,8/1/2025
+user_00102,session_000335,3,258,5,Electronics,0,0,0,8/1/2025
+user_00221,session_000336,2,231,6,Home & Garden,0,0,0,10/21/2025
+user_00164,session_000337,2,39,2,Sports,0,0,0,9/2/2025
+user_00044,session_000338,8,267,11,Books,1,0,0,10/19/2025
+user_00236,session_000339,1,90,2,Home & Garden,0,0,0,8/23/2025
+user_00112,session_000340,3,214,5,Books,0,1,15.81,8/31/2025
+user_00191,session_000341,3,42,3,Home & Garden,0,0,0,8/1/2025
+user_00131,session_000342,1,271,2,Electronics,0,0,0,9/5/2025
+user_00090,session_000343,1,148,1,Clothing,1,0,0,8/10/2025
+user_00066,session_000344,2,652,1,Clothing,1,0,0,8/11/2025
+user_00195,session_000345,3,205,2,Electronics,0,0,0,9/24/2025
+user_00119,session_000346,3,81,8,Books,1,0,0,10/3/2025
+user_00165,session_000347,5,189,5,Books,0,0,0,9/1/2025
+user_00039,session_000348,5,598,6,Sports,1,1,35.16,9/17/2025
+user_00162,session_000349,3,132,3,Home & Garden,1,0,0,9/6/2025
+user_00130,session_000350,11,79,19,Electronics,0,0,0,7/30/2025
+user_00095,session_000351,9,407,16,Home & Garden,1,1,50.75,8/3/2025
+user_00158,session_000352,2,41,4,Books,0,0,0,10/1/2025
+user_00245,session_000353,5,171,8,Electronics,0,0,0,10/14/2025
+user_00049,session_000354,5,86,12,Home & Garden,1,0,0,9/25/2025
+user_00039,session_000355,3,33,2,Electronics,1,0,0,9/4/2025
+user_00183,session_000356,7,501,6,Electronics,0,0,0,8/23/2025
+user_00182,session_000357,11,61,12,Sports,1,0,0,10/9/2025
+user_00041,session_000358,2,226,4,Home & Garden,1,0,0,8/28/2025
+user_00100,session_000359,2,168,4,Sports,1,0,0,7/29/2025
+user_00203,session_000360,2,579,4,Home & Garden,0,0,0,10/17/2025
+user_00099,session_000361,3,155,8,Home & Garden,1,0,0,10/15/2025
+user_00247,session_000362,2,65,2,Books,1,0,0,10/5/2025
+user_00170,session_000363,7,61,5,Clothing,1,0,0,10/14/2025
+user_00179,session_000364,7,428,8,Sports,0,0,0,8/2/2025
+user_00080,session_000365,3,198,2,Books,1,0,0,9/3/2025
+user_00209,session_000366,3,74,8,Clothing,0,0,0,10/18/2025
+user_00234,session_000367,4,166,4,Books,0,0,0,9/26/2025
+user_00093,session_000368,2,436,2,Electronics,1,0,0,8/15/2025
+user_00244,session_000369,6,313,6,Clothing,0,0,0,8/16/2025
+user_00058,session_000370,5,340,9,Clothing,1,1,153.72,8/29/2025
+user_00217,session_000371,3,649,2,Electronics,0,0,0,9/28/2025
+user_00010,session_000372,7,323,11,Home & Garden,1,0,0,10/10/2025
+user_00034,session_000373,2,42,5,Books,1,0,0,8/12/2025
+user_00047,session_000374,2,225,1,Books,1,0,0,8/13/2025
+user_00185,session_000375,6,42,13,Sports,0,0,0,8/22/2025
+user_00249,session_000376,6,285,10,Sports,0,0,0,9/18/2025
+user_00060,session_000377,2,459,2,Books,1,0,0,9/21/2025
+user_00232,session_000378,2,116,5,Clothing,0,0,0,9/17/2025
+user_00119,session_000379,4,86,6,Home & Garden,1,0,0,9/14/2025
+user_00248,session_000380,5,287,5,Clothing,1,0,0,8/9/2025
+user_00224,session_000381,3,37,9,Home & Garden,0,0,0,9/8/2025
+user_00142,session_000382,5,42,8,Electronics,1,0,0,8/7/2025
+user_00073,session_000383,2,110,4,Electronics,1,0,0,8/26/2025
+user_00116,session_000384,3,290,4,Books,0,0,0,8/20/2025
+user_00210,session_000385,12,189,21,Sports,1,0,0,9/14/2025
+user_00014,session_000386,7,118,8,Sports,1,0,0,8/22/2025
+user_00099,session_000387,5,1007,11,Electronics,1,0,0,7/26/2025
+user_00082,session_000388,1,241,2,Electronics,1,0,0,10/14/2025
+user_00086,session_000389,5,65,6,Clothing,1,1,19.94,8/28/2025
+user_00235,session_000390,7,613,11,Sports,0,0,0,10/21/2025
+user_00121,session_000391,5,60,7,Sports,0,0,0,7/25/2025
+user_00066,session_000392,2,413,5,Clothing,1,0,0,10/1/2025
+user_00241,session_000393,3,90,6,Books,0,0,0,8/28/2025
+user_00061,session_000394,3,335,4,Home & Garden,1,1,85.54,8/22/2025
+user_00108,session_000395,3,49,5,Books,0,0,0,9/24/2025
+user_00153,session_000396,1,318,1,Books,0,0,0,8/22/2025
+user_00184,session_000397,3,109,2,Clothing,0,1,37.57,9/6/2025
+user_00062,session_000398,3,60,3,Books,1,0,0,10/16/2025
+user_00172,session_000399,2,56,2,Electronics,0,0,0,9/28/2025
+user_00140,session_000400,1,45,1,Books,1,0,0,7/25/2025
+user_00100,session_000401,6,40,15,Sports,0,0,0,9/8/2025
+user_00065,session_000402,1,383,1,Electronics,1,0,0,7/31/2025
+user_00089,session_000403,10,69,24,Clothing,1,0,0,10/11/2025
+user_00027,session_000404,3,185,5,Books,1,0,0,9/3/2025
+user_00035,session_000405,4,88,7,Electronics,1,0,0,9/4/2025
+user_00209,session_000406,2,317,1,Clothing,1,0,0,10/20/2025
+user_00123,session_000407,8,64,14,Clothing,1,1,57.9,9/19/2025
+user_00010,session_000408,3,30,6,Home & Garden,1,0,0,8/17/2025
+user_00227,session_000409,5,149,4,Electronics,0,0,0,9/11/2025
+user_00209,session_000410,4,287,8,Books,0,1,46.5,10/13/2025
+user_00049,session_000411,3,201,4,Home & Garden,1,0,0,7/29/2025
+user_00222,session_000412,2,133,2,Home & Garden,0,0,0,9/16/2025
+user_00228,session_000413,1,262,0,Sports,1,0,0,9/10/2025
+user_00087,session_000414,3,89,5,Clothing,1,0,0,9/24/2025
+user_00095,session_000415,2,180,2,Books,1,0,0,8/2/2025
+user_00187,session_000416,6,345,9,Sports,0,0,0,8/15/2025
+user_00140,session_000417,2,559,4,Home & Garden,0,0,0,10/15/2025
+user_00076,session_000418,8,256,14,Home & Garden,1,0,0,9/15/2025
+user_00043,session_000419,3,84,6,Sports,1,0,0,7/28/2025
+user_00187,session_000420,3,61,5,Home & Garden,0,0,0,10/12/2025
+user_00203,session_000421,13,282,20,Electronics,0,0,0,9/7/2025
+user_00132,session_000422,3,284,1,Clothing,1,1,78.87,10/8/2025
+user_00174,session_000423,2,418,4,Sports,0,1,49.44,10/13/2025
+user_00094,session_000424,3,349,4,Home & Garden,1,0,0,10/3/2025
+user_00009,session_000425,6,62,13,Books,1,1,4.89,9/18/2025
+user_00243,session_000426,4,142,3,Home & Garden,0,0,0,10/4/2025
+user_00036,session_000427,4,271,3,Books,1,0,0,9/1/2025
+user_00167,session_000428,5,531,7,Home & Garden,0,0,0,8/15/2025
+user_00128,session_000429,2,140,2,Books,0,0,0,8/25/2025
+user_00199,session_000430,1,339,1,Home & Garden,1,0,0,10/9/2025
+user_00074,session_000431,7,324,9,Sports,1,1,71.1,8/9/2025
+user_00219,session_000432,2,75,4,Electronics,0,0,0,9/17/2025
+user_00023,session_000433,5,518,5,Home & Garden,1,0,0,10/21/2025
+user_00017,session_000434,3,668,4,Books,1,0,0,8/30/2025
+user_00218,session_000435,6,44,9,Clothing,1,0,0,10/12/2025
+user_00045,session_000436,4,232,4,Home & Garden,1,0,0,8/7/2025
+user_00052,session_000437,2,176,4,Clothing,1,0,0,9/24/2025
+user_00007,session_000438,3,520,9,Home & Garden,1,0,0,9/8/2025
+user_00120,session_000439,4,365,7,Books,0,0,0,7/31/2025
+user_00080,session_000440,3,100,1,Sports,1,0,0,9/22/2025
+user_00135,session_000441,4,106,7,Sports,1,0,0,8/1/2025
+user_00033,session_000442,5,223,7,Home & Garden,1,0,0,9/18/2025
+user_00120,session_000443,2,127,3,Books,0,0,0,10/1/2025
+user_00164,session_000444,3,33,4,Books,0,0,0,9/16/2025
+user_00129,session_000445,3,499,2,Electronics,1,0,0,8/30/2025
+user_00043,session_000446,3,119,2,Clothing,1,0,0,10/21/2025
+user_00058,session_000447,2,189,4,Home & Garden,1,0,0,9/27/2025
+user_00230,session_000448,7,452,9,Home & Garden,1,0,0,10/12/2025
+user_00245,session_000449,4,324,5,Books,0,0,0,10/9/2025
+user_00137,session_000450,3,398,3,Electronics,0,0,0,10/5/2025
+user_00040,session_000451,1,120,1,Clothing,1,0,0,10/8/2025
+user_00087,session_000452,3,324,3,Books,1,1,8.65,7/26/2025
+user_00021,session_000453,1,36,2,Electronics,1,0,0,10/4/2025
+user_00068,session_000454,1,436,1,Clothing,1,0,0,9/14/2025
+user_00159,session_000455,6,79,10,Electronics,0,0,0,8/29/2025
+user_00165,session_000456,6,391,13,Home & Garden,0,0,0,10/18/2025
+user_00104,session_000457,8,337,9,Home & Garden,0,0,0,8/12/2025
+user_00113,session_000458,6,54,14,Sports,0,0,0,10/8/2025
+user_00037,session_000459,3,277,2,Home & Garden,1,0,0,9/1/2025
+user_00188,session_000460,7,268,9,Home & Garden,1,1,127.39,9/8/2025
+user_00132,session_000461,3,45,1,Books,0,0,0,8/7/2025
+user_00069,session_000462,1,130,1,Sports,1,0,0,8/4/2025
+user_00013,session_000463,7,39,15,Home & Garden,1,0,0,10/9/2025
+user_00108,session_000464,2,154,1,Clothing,1,0,0,9/2/2025
+user_00240,session_000465,1,123,0,Books,1,0,0,8/12/2025
+user_00128,session_000466,7,92,11,Books,0,0,0,9/24/2025
+user_00006,session_000467,4,234,2,Electronics,1,0,0,9/25/2025
+user_00118,session_000468,4,74,5,Clothing,0,0,0,7/29/2025
+user_00073,session_000469,6,56,9,Sports,1,0,0,10/14/2025
+user_00173,session_000470,12,109,15,Sports,0,1,165.59,8/5/2025
+user_00111,session_000471,4,160,5,Clothing,1,0,0,9/12/2025
+user_00094,session_000472,3,65,8,Electronics,1,0,0,10/3/2025
+user_00144,session_000473,2,230,2,Clothing,0,0,0,9/10/2025
+user_00130,session_000474,2,242,6,Sports,1,0,0,10/10/2025
+user_00175,session_000475,5,90,7,Books,0,0,0,9/11/2025
+user_00096,session_000476,8,40,7,Home & Garden,1,0,0,9/7/2025
+user_00194,session_000477,14,77,23,Clothing,0,0,0,9/25/2025
+user_00011,session_000478,4,82,9,Electronics,1,1,91.42,9/3/2025
+user_00206,session_000479,6,98,10,Sports,0,0,0,9/26/2025
+user_00036,session_000480,4,115,3,Home & Garden,1,0,0,9/1/2025
+user_00042,session_000481,2,1127,3,Sports,1,0,0,8/30/2025
+user_00152,session_000482,3,224,5,Home & Garden,0,0,0,9/23/2025
+user_00182,session_000483,7,59,10,Books,0,0,0,9/8/2025
+user_00085,session_000484,1,54,1,Electronics,1,0,0,10/5/2025
+user_00079,session_000485,9,72,6,Electronics,1,0,0,8/25/2025
+user_00248,session_000486,7,106,14,Books,0,0,0,10/5/2025
+user_00123,session_000487,5,180,7,Clothing,0,0,0,9/9/2025
+user_00038,session_000488,8,146,13,Clothing,1,1,63.32,10/20/2025
+user_00029,session_000489,4,404,4,Clothing,1,1,46.27,9/1/2025
+user_00108,session_000490,6,148,7,Clothing,0,0,0,9/25/2025
+user_00199,session_000491,4,215,5,Books,1,0,0,7/30/2025
+user_00181,session_000492,2,345,5,Clothing,0,0,0,10/15/2025
+user_00123,session_000493,4,194,7,Books,0,0,0,9/19/2025
+user_00234,session_000494,4,163,4,Books,0,0,0,10/18/2025
+user_00165,session_000495,2,70,1,Home & Garden,0,0,0,8/23/2025
+user_00072,session_000496,5,116,4,Books,1,0,0,8/30/2025
+user_00198,session_000497,1,180,3,Home & Garden,1,0,0,9/23/2025
+user_00082,session_000498,4,38,5,Sports,1,0,0,8/27/2025
+user_00074,session_000499,1,161,1,Electronics,1,0,0,9/30/2025
+user_00098,session_000500,7,30,12,Sports,1,0,0,8/10/2025
+user_00075,session_000501,1,151,1,Electronics,1,0,0,8/2/2025
+user_00089,session_000502,2,595,4,Sports,1,0,0,9/22/2025
+user_00055,session_000503,3,65,5,Clothing,1,0,0,8/26/2025
+user_00239,session_000504,2,911,3,Books,0,0,0,10/9/2025
+user_00190,session_000505,1,124,1,Books,0,1,15.12,9/28/2025
+user_00058,session_000506,7,185,15,Clothing,1,1,25.08,9/13/2025
+user_00085,session_000507,5,122,6,Sports,1,1,46.02,8/9/2025
+user_00002,session_000508,2,127,3,Books,1,0,0,8/12/2025
+user_00105,session_000509,16,72,28,Sports,0,1,20.53,8/28/2025
+user_00083,session_000510,5,243,9,Home & Garden,1,0,0,8/3/2025
+user_00167,session_000511,9,31,13,Books,0,0,0,7/27/2025
+user_00234,session_000512,6,144,7,Clothing,0,0,0,7/27/2025
+user_00215,session_000513,4,184,9,Sports,1,1,36.9,8/29/2025
+user_00225,session_000514,2,130,2,Electronics,0,0,0,8/5/2025
+user_00238,session_000515,4,89,4,Home & Garden,0,0,0,9/30/2025
+user_00135,session_000516,1,515,0,Sports,1,1,304.21,9/25/2025
+user_00120,session_000517,1,513,2,Home & Garden,0,0,0,8/12/2025
+user_00188,session_000518,5,74,9,Sports,0,0,0,7/24/2025
+user_00189,session_000519,3,216,7,Home & Garden,1,0,0,8/16/2025
+user_00045,session_000520,8,71,12,Books,1,0,0,9/12/2025
+user_00212,session_000521,7,216,13,Sports,0,1,16.33,10/16/2025
+user_00025,session_000522,2,461,4,Clothing,1,0,0,9/22/2025
+user_00083,session_000523,4,41,6,Clothing,1,1,69.91,9/10/2025
+user_00061,session_000524,5,241,10,Sports,1,0,0,9/3/2025
+user_00078,session_000525,5,101,12,Books,1,0,0,7/24/2025
+user_00067,session_000526,4,370,6,Home & Garden,1,0,0,7/30/2025
+user_00171,session_000527,3,141,7,Electronics,0,0,0,10/18/2025
+user_00129,session_000528,5,124,8,Home & Garden,0,0,0,8/29/2025
+user_00095,session_000529,6,119,5,Books,1,0,0,8/9/2025
+user_00123,session_000530,5,411,6,Clothing,0,0,0,9/8/2025
+user_00107,session_000531,1,126,2,Books,1,0,0,10/16/2025
+user_00212,session_000532,5,140,9,Clothing,1,0,0,10/7/2025
+user_00224,session_000533,7,127,7,Electronics,0,0,0,9/7/2025
+user_00020,session_000534,2,42,3,Books,1,1,36.51,10/1/2025
+user_00232,session_000535,2,258,1,Books,0,0,0,8/13/2025
+user_00084,session_000536,8,135,14,Books,1,0,0,10/18/2025
+user_00053,session_000537,3,391,0,Books,1,0,0,9/26/2025
+user_00115,session_000538,3,148,6,Electronics,0,0,0,9/19/2025
+user_00145,session_000539,9,106,12,Electronics,0,0,0,8/31/2025
+user_00186,session_000540,2,67,3,Electronics,0,0,0,8/19/2025
+user_00149,session_000541,2,454,2,Electronics,0,0,0,7/31/2025
+user_00139,session_000542,2,62,3,Electronics,1,1,57.56,9/21/2025
+user_00009,session_000543,4,589,4,Home & Garden,1,0,0,8/9/2025
+user_00197,session_000544,8,294,8,Sports,0,0,0,9/18/2025
+user_00223,session_000545,2,171,2,Sports,0,0,0,10/15/2025
+user_00224,session_000546,1,155,3,Books,0,0,0,8/7/2025
+user_00046,session_000547,2,126,0,Books,1,0,0,8/8/2025
+user_00187,session_000548,4,590,4,Clothing,1,0,0,8/30/2025
+user_00119,session_000549,3,116,4,Books,0,0,0,8/21/2025
+user_00064,session_000550,5,479,8,Sports,1,0,0,8/27/2025
+user_00049,session_000551,8,55,8,Electronics,1,1,198.59,10/15/2025
+user_00108,session_000552,8,111,16,Books,1,0,0,7/25/2025
+user_00062,session_000553,10,320,11,Clothing,1,1,38.34,10/7/2025
+user_00009,session_000554,6,240,5,Sports,1,0,0,10/21/2025
+user_00224,session_000555,3,465,0,Electronics,0,1,75.71,9/17/2025
+user_00060,session_000556,3,61,7,Books,1,0,0,7/30/2025
+user_00036,session_000557,2,476,3,Books,1,0,0,8/21/2025
+user_00209,session_000558,7,83,10,Books,0,0,0,10/17/2025
+user_00210,session_000559,5,482,11,Home & Garden,0,0,0,10/15/2025
+user_00134,session_000560,3,539,5,Clothing,0,0,0,10/2/2025
+user_00243,session_000561,7,231,10,Books,1,0,0,10/11/2025
+user_00174,session_000562,9,279,14,Sports,0,1,19.36,9/5/2025
+user_00242,session_000563,4,645,9,Sports,1,0,0,9/14/2025
+user_00105,session_000564,10,30,12,Clothing,0,0,0,9/29/2025
+user_00122,session_000565,4,264,9,Clothing,1,0,0,10/21/2025
+user_00037,session_000566,8,334,13,Sports,1,0,0,10/2/2025
+user_00106,session_000567,8,396,16,Sports,0,0,0,8/23/2025
+user_00066,session_000568,4,62,5,Clothing,1,0,0,8/2/2025
+user_00237,session_000569,6,227,9,Sports,1,1,10.27,8/16/2025
+user_00014,session_000570,12,115,21,Home & Garden,1,0,0,10/8/2025
+user_00155,session_000571,8,227,13,Electronics,1,1,895.16,10/6/2025
+user_00186,session_000572,2,69,2,Books,0,0,0,9/3/2025
+user_00078,session_000573,12,88,19,Electronics,1,1,76.8,8/16/2025
+user_00247,session_000574,4,270,4,Electronics,1,0,0,8/23/2025
+user_00179,session_000575,6,272,8,Books,1,0,0,8/22/2025
+user_00142,session_000576,2,293,1,Home & Garden,1,0,0,9/29/2025
+user_00167,session_000577,2,36,1,Home & Garden,0,0,0,9/24/2025
+user_00120,session_000578,8,128,13,Electronics,1,0,0,9/1/2025
+user_00235,session_000579,3,98,2,Clothing,0,0,0,10/3/2025
+user_00222,session_000580,10,209,14,Clothing,1,1,87.94,10/1/2025
+user_00240,session_000581,2,40,4,Books,0,0,0,8/11/2025
+user_00051,session_000582,2,373,2,Home & Garden,1,0,0,10/3/2025
+user_00214,session_000583,9,236,20,Clothing,0,0,0,10/18/2025
+user_00087,session_000584,1,186,3,Home & Garden,1,0,0,9/23/2025
+user_00248,session_000585,5,96,8,Sports,0,0,0,9/6/2025
+user_00044,session_000586,6,37,7,Clothing,1,0,0,9/23/2025
+user_00048,session_000587,10,36,14,Books,1,0,0,7/30/2025
+user_00135,session_000588,4,118,9,Electronics,1,1,70.68,10/16/2025
+user_00013,session_000589,6,41,13,Electronics,1,0,0,10/11/2025
+user_00060,session_000590,3,284,5,Electronics,1,0,0,7/24/2025
+user_00056,session_000591,3,108,4,Books,1,0,0,7/30/2025
+user_00159,session_000592,1,226,2,Books,1,0,0,7/25/2025
+user_00002,session_000593,3,224,3,Books,1,0,0,7/24/2025
+user_00005,session_000594,4,463,9,Books,1,0,0,9/29/2025
+user_00074,session_000595,4,173,5,Electronics,1,0,0,10/20/2025
+user_00173,session_000596,8,159,10,Sports,1,0,0,8/5/2025
+user_00236,session_000597,3,54,4,Electronics,0,0,0,10/10/2025
+user_00135,session_000598,6,536,9,Home & Garden,1,0,0,9/11/2025
+user_00021,session_000599,2,37,0,Home & Garden,1,0,0,9/19/2025
+user_00145,session_000600,7,55,10,Clothing,1,0,0,10/18/2025
+user_00212,session_000601,3,31,8,Electronics,0,0,0,7/27/2025
+user_00024,session_000602,4,500,7,Sports,1,0,0,10/1/2025
+user_00122,session_000603,1,185,0,Electronics,0,0,0,8/2/2025
+user_00128,session_000604,3,83,2,Sports,0,0,0,8/4/2025
+user_00230,session_000605,2,551,3,Books,1,0,0,10/19/2025
+user_00228,session_000606,4,83,8,Books,0,1,37.45,8/1/2025
+user_00176,session_000607,4,76,8,Home & Garden,1,0,0,7/27/2025
+user_00046,session_000608,8,131,15,Home & Garden,1,1,130.14,8/18/2025
+user_00151,session_000609,9,78,10,Clothing,1,0,0,9/11/2025
+user_00238,session_000610,4,643,8,Electronics,0,0,0,10/3/2025
+user_00214,session_000611,13,120,25,Sports,0,0,0,9/10/2025
+user_00194,session_000612,2,641,4,Clothing,1,0,0,8/2/2025
+user_00129,session_000613,2,39,0,Home & Garden,0,0,0,8/1/2025
+user_00088,session_000614,1,151,1,Books,1,0,0,10/7/2025
+user_00102,session_000615,2,693,4,Home & Garden,0,0,0,9/18/2025
+user_00126,session_000616,8,46,14,Clothing,0,0,0,9/16/2025
+user_00048,session_000617,7,272,10,Books,1,0,0,8/2/2025
+user_00198,session_000618,8,54,10,Books,0,0,0,8/1/2025
+user_00022,session_000619,1,125,1,Home & Garden,1,1,29.07,10/12/2025
+user_00040,session_000620,2,98,5,Sports,1,0,0,8/5/2025
+user_00024,session_000621,6,97,4,Electronics,1,0,0,9/17/2025
+user_00093,session_000622,7,330,8,Home & Garden,1,1,171.2,8/3/2025
+user_00048,session_000623,6,473,11,Sports,1,0,0,10/2/2025
+user_00132,session_000624,2,151,2,Sports,0,0,0,10/1/2025
+user_00024,session_000625,2,55,4,Books,1,0,0,9/2/2025
+user_00222,session_000626,2,292,3,Sports,0,0,0,8/2/2025
+user_00186,session_000627,3,36,3,Books,1,0,0,10/4/2025
+user_00134,session_000628,13,55,22,Clothing,0,1,2.91,8/26/2025
+user_00078,session_000629,12,394,23,Home & Garden,1,0,0,7/31/2025
+user_00043,session_000630,3,545,5,Sports,1,0,0,8/30/2025
+user_00124,session_000631,2,105,4,Electronics,0,0,0,10/11/2025
+user_00127,session_000632,7,690,21,Books,0,0,0,8/9/2025
+user_00078,session_000633,7,217,12,Electronics,1,0,0,9/3/2025
+user_00216,session_000634,4,110,7,Books,0,0,0,9/17/2025
+user_00086,session_000635,7,164,9,Sports,1,0,0,10/14/2025
+user_00250,session_000636,9,256,11,Books,0,0,0,10/19/2025
+user_00052,session_000637,2,221,0,Sports,1,0,0,9/11/2025
+user_00248,session_000638,7,137,10,Home & Garden,0,0,0,9/23/2025
+user_00248,session_000639,5,339,7,Books,1,0,0,8/27/2025
+user_00210,session_000640,3,172,3,Sports,0,0,0,8/17/2025
+user_00152,session_000641,8,66,5,Books,0,0,0,7/26/2025
+user_00244,session_000642,4,101,3,Sports,1,0,0,8/29/2025
+user_00213,session_000643,3,206,5,Electronics,1,0,0,9/13/2025
+user_00173,session_000644,5,622,9,Sports,0,0,0,8/24/2025
+user_00169,session_000645,2,372,4,Clothing,1,0,0,8/1/2025
+user_00115,session_000646,2,64,3,Books,0,0,0,9/25/2025
+user_00237,session_000647,5,286,8,Sports,0,0,0,9/7/2025
+user_00180,session_000648,3,775,4,Books,0,0,0,8/5/2025
+user_00197,session_000649,5,222,9,Clothing,0,0,0,10/13/2025
+user_00157,session_000650,3,49,3,Electronics,0,0,0,10/13/2025
+user_00103,session_000651,2,62,6,Home & Garden,1,0,0,7/24/2025
+user_00026,session_000652,5,85,10,Home & Garden,1,0,0,9/27/2025
+user_00143,session_000653,2,50,5,Books,0,0,0,9/8/2025
+user_00101,session_000654,6,288,11,Sports,1,0,0,9/25/2025
+user_00039,session_000655,9,341,10,Home & Garden,1,0,0,9/22/2025
+user_00027,session_000656,1,193,0,Home & Garden,1,0,0,8/2/2025
+user_00030,session_000657,3,85,8,Clothing,1,0,0,9/4/2025
+user_00117,session_000658,3,334,4,Clothing,0,0,0,8/4/2025
+user_00113,session_000659,3,62,4,Sports,0,0,0,10/21/2025
+user_00030,session_000660,4,153,7,Electronics,1,0,0,10/13/2025
+user_00028,session_000661,2,167,7,Clothing,1,0,0,8/23/2025
+user_00133,session_000662,10,58,9,Clothing,0,0,0,9/15/2025
+user_00246,session_000663,8,78,9,Sports,0,0,0,8/15/2025
+user_00048,session_000664,4,608,5,Sports,1,0,0,10/9/2025
+user_00227,session_000665,1,189,2,Clothing,0,0,0,7/23/2025
+user_00181,session_000666,10,267,12,Clothing,0,0,0,7/31/2025
+user_00148,session_000667,3,72,6,Electronics,1,0,0,9/7/2025
+user_00084,session_000668,2,207,4,Clothing,1,0,0,8/25/2025
+user_00172,session_000669,3,188,3,Sports,0,0,0,10/7/2025
+user_00100,session_000670,9,103,22,Books,0,1,41.25,9/6/2025
+user_00217,session_000671,13,48,21,Sports,0,0,0,10/21/2025
+user_00205,session_000672,2,123,4,Home & Garden,1,0,0,10/17/2025
+user_00035,session_000673,6,227,10,Home & Garden,1,1,50.51,8/31/2025
+user_00030,session_000674,7,79,8,Clothing,1,0,0,8/10/2025
+user_00131,session_000675,8,33,10,Sports,0,0,0,9/10/2025
+user_00109,session_000676,3,310,3,Clothing,0,0,0,10/13/2025
+user_00239,session_000677,5,294,12,Clothing,0,0,0,8/9/2025
+user_00048,session_000678,5,577,5,Home & Garden,1,0,0,10/10/2025
+user_00014,session_000679,5,38,6,Home & Garden,1,0,0,9/23/2025
+user_00035,session_000680,1,43,3,Clothing,1,0,0,10/2/2025
+user_00130,session_000681,13,218,15,Sports,0,0,0,10/21/2025
+user_00216,session_000682,2,161,1,Sports,0,0,0,7/26/2025
+user_00204,session_000683,5,323,8,Clothing,0,0,0,9/29/2025
+user_00074,session_000684,8,48,6,Clothing,1,0,0,10/3/2025
+user_00191,session_000685,3,54,5,Sports,0,0,0,8/6/2025
+user_00069,session_000686,2,402,3,Books,1,0,0,9/7/2025
+user_00139,session_000687,6,61,16,Electronics,1,0,0,8/19/2025
+user_00109,session_000688,4,79,6,Electronics,1,0,0,8/23/2025
+user_00077,session_000689,1,141,1,Electronics,1,0,0,9/5/2025
+user_00221,session_000690,5,109,8,Electronics,0,0,0,8/22/2025
+user_00054,session_000691,1,127,2,Books,1,0,0,10/21/2025
+user_00157,session_000692,6,374,9,Sports,0,0,0,8/18/2025
+user_00209,session_000693,2,548,5,Clothing,1,0,0,9/29/2025
+user_00072,session_000694,7,51,11,Books,1,0,0,9/2/2025
+user_00181,session_000695,2,90,3,Home & Garden,0,0,0,9/26/2025
+user_00231,session_000696,6,321,11,Electronics,0,0,0,9/13/2025
+user_00236,session_000697,3,41,1,Electronics,1,0,0,8/8/2025
+user_00180,session_000698,7,355,7,Clothing,0,0,0,8/23/2025
+user_00195,session_000699,7,113,8,Sports,0,0,0,8/26/2025
+user_00161,session_000700,4,57,2,Sports,0,1,72.91,8/3/2025
+user_00104,session_000701,20,63,25,Books,1,0,0,9/8/2025
+user_00117,session_000702,9,72,17,Sports,0,1,148.81,8/3/2025
+user_00188,session_000703,9,241,9,Sports,0,0,0,7/31/2025
+user_00204,session_000704,3,248,5,Books,0,0,0,8/19/2025
+user_00127,session_000705,5,122,4,Home & Garden,0,0,0,10/1/2025
+user_00148,session_000706,6,112,8,Clothing,0,0,0,9/4/2025
+user_00229,session_000707,6,303,13,Electronics,0,0,0,9/19/2025
+user_00005,session_000708,7,62,5,Electronics,1,0,0,8/12/2025
+user_00113,session_000709,6,104,7,Sports,0,0,0,8/17/2025
+user_00177,session_000710,3,362,4,Clothing,1,0,0,8/27/2025
+user_00024,session_000711,4,504,5,Home & Garden,1,0,0,9/8/2025
+user_00171,session_000712,3,178,7,Clothing,0,0,0,10/20/2025
+user_00194,session_000713,5,118,9,Clothing,0,1,135.65,8/4/2025
+user_00001,session_000714,4,114,7,Clothing,1,0,0,8/8/2025
+user_00152,session_000715,4,217,4,Clothing,0,0,0,7/24/2025
+user_00179,session_000716,5,68,4,Home & Garden,1,0,0,9/15/2025
+user_00178,session_000717,5,80,6,Clothing,0,0,0,8/3/2025
+user_00188,session_000718,11,343,15,Electronics,0,0,0,8/30/2025
+user_00036,session_000719,10,161,15,Sports,1,0,0,8/9/2025
+user_00165,session_000720,6,231,7,Clothing,0,0,0,10/9/2025
+user_00167,session_000721,8,104,9,Clothing,0,0,0,10/11/2025
+user_00192,session_000722,4,346,5,Clothing,1,0,0,9/17/2025
+user_00221,session_000723,13,274,16,Clothing,0,1,27.84,8/7/2025
+user_00151,session_000724,9,870,11,Sports,0,0,0,8/9/2025
+user_00064,session_000725,3,134,5,Home & Garden,1,0,0,8/23/2025
+user_00142,session_000726,3,159,4,Books,0,0,0,10/19/2025
+user_00007,session_000727,6,129,9,Home & Garden,1,1,155.03,10/8/2025
+user_00131,session_000728,1,414,3,Clothing,1,0,0,7/29/2025
+user_00201,session_000729,1,260,0,Clothing,0,0,0,9/24/2025
+user_00164,session_000730,4,169,7,Books,0,0,0,7/24/2025
+user_00093,session_000731,1,106,1,Home & Garden,1,1,298.6,10/3/2025
+user_00108,session_000732,6,169,12,Home & Garden,0,0,0,9/21/2025
+user_00245,session_000733,3,148,1,Electronics,0,1,145.41,8/25/2025
+user_00056,session_000734,1,129,2,Electronics,1,0,0,9/11/2025
+user_00130,session_000735,1,55,1,Home & Garden,0,0,0,9/14/2025
+user_00109,session_000736,3,302,2,Sports,0,0,0,10/9/2025
+user_00040,session_000737,6,376,11,Home & Garden,1,1,161.06,8/2/2025
+user_00131,session_000738,3,1207,2,Clothing,1,1,73.79,9/2/2025
+user_00101,session_000739,7,31,5,Books,0,0,0,10/18/2025
+user_00165,session_000740,4,424,7,Electronics,0,0,0,8/22/2025
+user_00015,session_000741,4,135,3,Clothing,1,1,269.57,9/16/2025
+user_00030,session_000742,2,283,3,Sports,1,0,0,7/30/2025
+user_00080,session_000743,9,60,12,Clothing,1,1,5.13,10/21/2025
+user_00036,session_000744,8,31,6,Electronics,1,1,127.87,9/5/2025
+user_00134,session_000745,5,414,6,Books,1,0,0,8/13/2025
+user_00096,session_000746,5,94,9,Clothing,1,0,0,8/26/2025
+user_00188,session_000747,3,326,2,Electronics,1,1,250.88,9/15/2025
+user_00070,session_000748,4,289,2,Books,1,1,11.96,10/4/2025
+user_00161,session_000749,6,262,11,Electronics,0,0,0,7/30/2025
+user_00128,session_000750,5,104,10,Books,0,0,0,8/5/2025
